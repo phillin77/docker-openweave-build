@@ -10,7 +10,7 @@ apt-get install -y autotools-dev build-essential automake libtool git lcov \
                     libdbus-1-dev libglib2.0-dev libssl-dev libudev-dev \
                     bridge-utils make net-tools software-properties-common \
                     python2.7 python-setuptools python-lockfile python-psutil && \
-apt-get install -y --allow gcc-arm-none-eabi && \
+apt-get install -y --force-yes gcc-arm-none-eabi && \
 apt-get update -qq && \
 apt-get clean all
 
