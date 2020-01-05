@@ -32,4 +32,4 @@ RUN happy-configuration weave_path /openweave/openweave-core/build/x86_64-unknow
 
 RUN export PATH=$PATH:/openweave/openweave-core/src/test-apps/happy/bin
 
-WORKDIR /mydir
+WORKDIR /openweave
